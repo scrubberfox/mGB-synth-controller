@@ -1,0 +1,15 @@
+This is a guide to build a controller for mGB (MIDI Gameboy)
+The project uses an Arduino Nano but can be used with other versions of arduino
+
+Project requires an already working and built Arduinoboy as this project does NOT send 
+MIDI notes to the gameboy, it controls the parameters of each of the channels using 
+physical pots and buttons rather than using the DPad or NES controller making it
+more like a synth (in my opinion) 
+
+Features control of each channel by selecting using 《 and 》 buttons
+Channels include PU1, PU2, WAV, NOISE and OMNI
+Project features 8 pots for control over each of the MIDI CC functions
+Pitchbend, envelope, Pulse width/shape, Pitch sweep, Pitchbend range,load preset,Pan and Sustain
+
+For more info on Arduinoboy and mGB check out links below ;)
+https://github.com/trash80/Arduinoboy#readme
