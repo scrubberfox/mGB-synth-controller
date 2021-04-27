@@ -13,3 +13,6 @@ Pitchbend, envelope, Pulse width/shape, Pitch sweep, Pitchbend range,load preset
 
 For more info on Arduinoboy and mGB check out links below ;)
 https://github.com/trash80/Arduinoboy#readme
+
+You also need to add the library for Arduino from https://github.com/tttapa/Control-Surface - created by Pieter P
+install the zip to your libray before uploading code to Arduino
