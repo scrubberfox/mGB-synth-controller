@@ -1,0 +1,52 @@
+List of Materials 
+
+Arduino Nano (or compatible alternative)
+5 x 1k resistors
+2 x 220 ohm resistors
+5 x LEDs 
+8 x 10k potentiometers
+2 x momentary push buttons
+
+Project requires an already working Arduinoboy and copy of mGB
+Also requires the download and installtion of Arduino library https://github.com/tttapa/Control-Surface by Pieter P
+
+POTENTIOMETERS
+The analog pins on the board A0 - A7 go to the middle pin/wiper of each of the 10k potentiometers
+
+Pot A0 - Pitchbend, A1 - Pulsewidth/Shape, A2 - Envelope/Shape, A3 - Pitchsweep, A4 - Pitchbend range
+A5 - Load preset, A6 - Pan, A7 - Sustain
+
+The left pin/wiper of each pot connects to the GND pin
+The right pin/wiper of each pot connects to the 5v pin
+
+PUSHBUTTONS
+The digital pins D2 and D3 connect to one side of the pushbuttons, the other side connects to the GND
+
+LEDs
+The digital pins D4 - D8 connect to the (+) side of the LEDs via a 1k resistor for each 
+The (-) leg of the LEDs connect to the GND
+
+MIDI
+The MIDI outputs connect to the existing MIDI IN on the Arduinoboy (providing you built one with the 5 pin DIN input and not just USB)
+5v pin connects to a 220 ohm resistor then to pin 5 of the MIDI in
+TX pin connects to a 220 ohm resistor then to pin 4 of the MIDI in
+GND pin connects to pin 2 of the MIDI in
+
+POWER
+The arduino board can either be powered by connecting the Vin from the same power as the Arduinoboy or via its own USB cable 
+
+EASY TO USE
+
+LEDs 1 - 5 (D4 - D8) display the MIDI channel which are:
+Channel 1 - PU1
+Channel 2  - PU2
+Channel 3 - Wave
+Channel 4 - Noise
+Channel 5 - OMNI/poly
+These channels are selected by pressing the momentary push buttons one is < the other is >
+
+As mentioned previously:
+
+Pot1 - Pitchbend, Pot2 - Pulsewidth/Shape, Pot3 - Envelope/Shape, Pot4 - Pitchsweep, Pot5 - Pitchbend range
+Pot6 - Load preset, Pot 7 - Pan, Pot8 - Sustain giving you full control over every function on mGB
+
