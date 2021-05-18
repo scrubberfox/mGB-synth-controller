@@ -11,6 +11,10 @@ Channels include PU1, PU2, WAV, NOISE and OMNI
 Project features 8 pots for control over each of the MIDI CC functions
 Pitchbend, envelope, Pulse width/shape, Pitch sweep, Pitchbend range,load preset,Pan and Sustain
 
+CV control has been added in version 0.2, for this please connect cv input jack (ring, pin 3) to A0 -7 (same as the pots and ensure the
+connection isn't connected to ground when no jacks are plugged in or this will stop any CC messages at all) along with the ground pin of each jack (sleeve pin 1) to ground
+(I used thonkiconn jacks pin 1 is sleeve, 3 is ring) see jack pinout diagram
+
 For more info on Arduinoboy and mGB check out links below ;)
 https://github.com/trash80/Arduinoboy#readme
 
